@@ -10,5 +10,11 @@ module.exports = {
     plugins: ['stylelint-order'],
     rules: {
         indentation: 4,
+        'value-keyword-case': [
+            'lower',
+            {
+                ignoreProperties: ['composes'],
+            },
+        ],
     },
 };
