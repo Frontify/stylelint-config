@@ -9,8 +9,8 @@
         "release": "npm publish --access public"
     },
     "devDependencies": {
-        "@commitlint/cli": "12.1.4",
-        "@commitlint/config-conventional": "12.1.4",
+        "@commitlint/cli": "15.0.0",
+        "@commitlint/config-conventional": "15.0.0",
         "@frontify/eslint-config-basic": "0.7.0",
         "eslint": "7.29.0",
         "husky": "6.0.0",
