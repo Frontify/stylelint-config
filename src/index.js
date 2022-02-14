@@ -1,13 +1,7 @@
 'use strict';
 
 module.exports = {
-    extends: [
-        'stylelint-config-standard',
-        'stylelint-config-css-modules',
-        'stylelint-config-prettier',
-        'stylelint-config-idiomatic-order',
-    ],
-    plugins: ['stylelint-order'],
+    extends: ['stylelint-config-standard', 'stylelint-config-css-modules', 'stylelint-config-prettier'],
     rules: {
         indentation: 4,
         'value-keyword-case': [
@@ -20,7 +14,7 @@ module.exports = {
         'at-rule-no-unknown': [
             true,
             {
-                ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen'],
+                ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen', 'layer'],
             },
         ],
         'declaration-block-trailing-semicolon': null,
